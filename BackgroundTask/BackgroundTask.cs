@@ -8,6 +8,7 @@ namespace BackgroundTask
 {
     public  class BackgroundTask
     {
+        private int i;
         private List<Action> actions;
 
         public BackgroundTask()
